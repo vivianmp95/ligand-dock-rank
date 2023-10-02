@@ -1,12 +1,3 @@
-# O que ele faz:
-# 1. Abrir o arquivo do receptor e procurar a linha da Serina441 (dar a opção de digitar o que quer procurar)
-# 2. Pegar as coordenadas da Serina441
-# 3. Receber 100 arquivos .txt de uma vez (dos dockings)
-# 4. Pegar todas as coordenadas de N, C, O e CA de cada .txt e calcular a distância euclidiana para as
-# coordenadas do Oxigenio gama OG da Serina441
-# 5. Salvar num arquivo .txt os modelos com os átomos de cada um com até 5A de distância da Serina, não esquecer de colocar junto
-# o ITSscore de cada um.
-
 import os
 import csv
 
