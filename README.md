@@ -9,11 +9,12 @@ To run the script, you need to have Python3 installed.
 ### 📁 Subfolders
 
 **Ligands**: directory that will receive the docking files (ATTENTION: the folder must only contain the docking files).
-**Receiver**: directory that will receive the receiver file, with the name "receiver.pdb".
+
+**Receptor**: directory that will receive the receptor file, with the name "receptor.pdb".
 
 ### 🔧 Running
 
-1. To configure your target, you must open the receiver's .pdb file and find the active site line. When found, replace in line 55 with the first three columns of that line.
+1. To configure your target, you must open the receptor's .pdb file and find the active site line. When found, replace in line 55 with the first three columns of that line.
 
 ```
 if 'ATOM   2097  OG' in line:
