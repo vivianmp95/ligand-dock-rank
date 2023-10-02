@@ -99,7 +99,7 @@ for item in final_list:  # cálculo da distância euclidiana
     result_data.update({'coordinates': item_data['coordinates']})
     result_data.update({'distance': distance_value})
 
-    if distance_value <= 5:  # vai filtrar pelos aminoácidos com distância euclidiana menor que 5A
+    if distance_value <= 6:  # vai filtrar pelos aminoácidos com distância euclidiana menor que 5A
         result_data.update({'Is it a good candidate?': 'true'})
     else:
         result_data.update({'Is it a good candidate?': 'false'})
@@ -124,6 +124,9 @@ for item in final_list:  # cálculo da distância euclidiana
 
     distance_list.append(result_data.copy())
 distance_list = sorted(distance_list, key=lambda d: d['distance'])
+minor_distance = distance_list[0]['distance']
+if minor_distance > 6:
+    print('AVISO: Distâncias são maiores que 6A, não são bons candidatos. Conferir output.')
 
 # Criação do output com os resultados
 keys = distance_list[0].keys()
