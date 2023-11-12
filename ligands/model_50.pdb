@@ -1,0 +1,46 @@
+REMARK Number:  50
+REMARK Cluster:  1  50
+REMARK Ligand Name   :  peptide_1.pdb
+REMARK ITScore       :  -107.864
+REMARK RMSD          :   106.217
+MODEL    50
+ATOM      1  N   CYS B   1      41.537 -40.241   5.742
+ATOM      2  CA  CYS B   1      41.147 -41.635   5.621
+ATOM      3  C   CYS B   1      42.272 -42.439   6.246
+ATOM      4  O   CYS B   1      43.445 -42.084   6.136
+ATOM      5  CB  CYS B   1      40.962 -42.011   4.159
+ATOM      6  SG  CYS B   1      39.495 -41.241   3.392
+ATOM      7  N   THR B   2      41.913 -43.526   6.925
+ATOM      8  CA  THR B   2      42.897 -44.403   7.545
+ATOM      9  C   THR B   2      43.599 -45.150   6.413
+ATOM     10  O   THR B   2      42.947 -45.645   5.489
+ATOM     11  CB  THR B   2      42.227 -45.444   8.475
+ATOM     12  OG1 THR B   2      41.516 -44.773   9.524
+ATOM     13  CG2 THR B   2      43.275 -46.362   9.085
+ATOM     14  N   PRO B   3      44.907 -45.248   6.607
+ATOM     15  CA  PRO B   3      45.712 -45.916   5.555
+ATOM     16  C   PRO B   3      45.032 -47.023   4.761
+ATOM     17  O   PRO B   3      44.554 -47.996   5.380
+ATOM     18  CB  PRO B   3      46.967 -46.443   6.245
+ATOM     19  CG  PRO B   3      46.866 -45.976   7.658
+ATOM     20  CD  PRO B   3      45.974 -44.767   7.622
+ATOM     21  N   SER B   4      44.873 -46.794   3.466
+ATOM     22  CA  SER B   4      44.057 -47.716   2.648
+ATOM     23  C   SER B   4      44.628 -47.831   1.251
+ATOM     24  O   SER B   4      45.421 -47.011   0.810
+ATOM     25  CB  SER B   4      42.617 -47.195   2.657
+ATOM     26  OG  SER B   4      42.575 -45.842   2.061
+ATOM     27  N   ARG B   5      44.216 -48.883   0.544
+ATOM     28  CA  ARG B   5      44.676 -49.097  -0.812
+ATOM     29  C   ARG B   5      43.435 -48.987  -1.703
+ATOM     30  O   ARG B   5      42.637 -49.922  -1.795
+ATOM     31  CB  ARG B   5      45.316 -50.480  -0.933
+ATOM     32  CG  ARG B   5      46.510 -50.516  -1.865
+ATOM     33  CD  ARG B   5      47.796 -50.847  -1.132
+ATOM     34  NE  ARG B   5      47.961 -50.020   0.053
+ATOM     35  CZ  ARG B   5      49.026 -50.044   0.843
+ATOM     36  NH1 ARG B   5      50.040 -50.853   0.584
+ATOM     37  NH2 ARG B   5      49.070 -49.254   1.902
+ATOM     38  OXT ARG B   5      43.208 -47.962  -2.348
+TER
+ENDMDL

@@ -11,7 +11,7 @@ receptor_coordinates = []
 distance_list = []
 model_data = {}
 header_name = ''
-receptor_type = 'Acceptor'
+receptor_type = 'Donnor'
 
 # CONTATOS (baseado na definição do nAPOLI)
 # tipo = (distancia_minima, distancia_maxima)
@@ -43,7 +43,7 @@ attractive_range = (2, 6)
 # Abrir arquivo do receptor:
 receptor_file = open("receptor/receptor.pdb", "r")
 for line in receptor_file.readlines():
-    if 'ATOM   2097  OG' in line:
+    if 'ATOM   5086  N' in line:
         coordinates = line[32:54]
         receptor_coordinates = coordinates.split()  # criar uma lista de coordenadas da Ser441
 
