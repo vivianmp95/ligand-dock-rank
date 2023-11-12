@@ -26,7 +26,7 @@ if 'ATOM   5086  N' in line:
 2. On line 14, you must enter the type of your active site residue, among the options: Hydrophobic, Aromatic, Positive, Negative, Donor or Acceptor.
 
 ```
-receptor_type = 'Acceptor'
+receptor_type = 'Donnor'
 ```
 
 To run the script for the first time, you must first install its dependencies. To do so, you should run the following command on the root folder:
