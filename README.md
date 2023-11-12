@@ -14,13 +14,13 @@ To run the script, you need to have Python3 installed.
 
 ### 🔧 Running
 
-1. To configure your target, you must open the receptor's .pdb file and find the active site line. When found, replace in line 55 with the first three columns of that line.
+1. To configure your target, you must open the receptor's .pdb file and find the active site line. When found, replace in line 46 with the first three columns of that line.
 
 ```
 if 'ATOM   2097  OG' in line:
 ```
 
-2. On line 23, you must enter the type of your active site residue, among the options: Hydrophobic, Aromatic, Positive, Negative, Donor or Acceptor.
+2. On line 14, you must enter the type of your active site residue, among the options: Hydrophobic, Aromatic, Positive, Negative, Donor or Acceptor.
 
 ```
 receptor_type = 'Acceptor'
