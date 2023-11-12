@@ -8,16 +8,19 @@ To run the script, you need to have Python3 installed.
 
 ### 📁 Subfolders
 
-**Ligands**: directory that will receive the docking files (ATTENTION: the folder must only contain the docking files).
+**Ligands**: This directory should contain only the docking files. Examples have been provided to demonstrate the expected file format.
 
-**Receptor**: directory that will receive the receptor file, with the name "receptor.pdb".
+**Receptor**: This directory should contain the receptor file named "receptor.pdb." For reference, an example receptor file, "Crystal structure of HIV-1 reverse transcriptase in complex with S-1153" (PDB ID: 7MEQ; REN et al., 2000), is included in the "receptor" folder.
+
+Obs: The provided "ligands" folder includes docking poses of a hydrolase activator (PDB ID: 2HI8; ROESER et al., 2007) in complex with the receptor. This serves as an illustrative example to help you understand the expected input and output of the script.
 
 ### 🔧 Running
 
-1. To configure your target, you must open the receptor's .pdb file and find the active site line. When found, replace in line 46 with the first three columns of that line.
+1. Open the receptor's .pdb file and locate the active site line.
+2. Replace the content of line 46 in the script with the first three columns of the identified active site line.
 
 ```
-if 'ATOM   2097  OG' in line:
+if 'ATOM   5086  N' in line:
 ```
 
 2. On line 14, you must enter the type of your active site residue, among the options: Hydrophobic, Aromatic, Positive, Negative, Donor or Acceptor.
